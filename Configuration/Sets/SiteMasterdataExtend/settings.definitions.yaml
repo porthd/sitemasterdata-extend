@@ -1,0 +1,34 @@
+settings:
+  # --- Social Media ---
+
+  sitemasterdataLinkedIn:
+    type: string
+    default: ''
+    label: 'LLL:EXT:sitemasterdata_extend/Resources/Private/Language/locallang.xlf:setting.linkedIn'
+
+  sitemasterdataInstagram:
+    type: string
+    default: ''
+    label: 'LLL:EXT:sitemasterdata_extend/Resources/Private/Language/locallang.xlf:setting.instagram'
+
+  sitemasterdataXTwitter:
+    type: string
+    default: ''
+    label: 'LLL:EXT:sitemasterdata_extend/Resources/Private/Language/locallang.xlf:setting.xTwitter'
+
+  # --- Legal ---
+
+  sitemasterdataVatId:
+    type: string
+    default: ''
+    label: 'LLL:EXT:sitemasterdata_extend/Resources/Private/Language/locallang.xlf:setting.vatId'
+
+  sitemasterdataRegistrationNumber:
+    type: string
+    default: ''
+    label: 'LLL:EXT:sitemasterdata_extend/Resources/Private/Language/locallang.xlf:setting.registrationNumber'
+
+  sitemasterdataRegistrationCourt:
+    type: string
+    default: ''
+    label: 'LLL:EXT:sitemasterdata_extend/Resources/Private/Language/locallang.xlf:setting.registrationCourt'

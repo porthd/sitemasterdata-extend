@@ -1,0 +1,17 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  porthd\sitemasterdataextend\:
+    resource: '../Classes/'
+
+  # Decorator registration:
+  # Symfony replaces the original SiteMasterdataDefinitions service with this decorator.
+  # SiteMasterdataProcessor and InjectSiteMasterdataPlaceholdersListener automatically
+  # receive the extended implementation via constructor injection.
+  # parent::getAll() provides the base implementation through PHP inheritance –
+  # no `.inner` service injection needed, which avoids TYPO3's strict-reference check.
+  porthd\sitemasterdataextend\Utility\ExtendedSiteMasterdataDefinitions:
+    decorates: porthd\sitemasterdata\Utility\SiteMasterdataDefinitions

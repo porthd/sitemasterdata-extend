@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="messages"
+          product-name="sitemasterdata_extend">
+        <header/>
+        <body>
+            <trans-unit id="setting.linkedIn">
+                <source>LinkedIn</source>
+            </trans-unit>
+            <trans-unit id="setting.instagram">
+                <source>Instagram</source>
+            </trans-unit>
+            <trans-unit id="setting.xTwitter">
+                <source>X / Twitter</source>
+            </trans-unit>
+            <trans-unit id="setting.vatId">
+                <source>VAT ID (USt-IdNr.)</source>
+            </trans-unit>
+            <trans-unit id="setting.registrationNumber">
+                <source>Registration Number (HRB)</source>
+            </trans-unit>
+            <trans-unit id="setting.registrationCourt">
+                <source>Registration Court (Amtsgericht)</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

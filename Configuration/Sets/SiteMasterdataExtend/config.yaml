@@ -1,0 +1,4 @@
+name: porthd/sitemasterdata-extend
+label: 'Site Master Data Extend'
+dependencies:
+  - porthd/sitemasterdata
