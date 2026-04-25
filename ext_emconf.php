@@ -3,10 +3,10 @@
 $EM_CONF[$_EXTKEY] = [
     'title'        => 'Site Master Data Extend',
     'description'  => 'Extends EXT:sitemasterdata with additional master data fields (example extension)',
-    'category'     => 'misc',
+    'category'     => 'be',
     'author'       => 'porthd',
     'author_email' => '',
-    'state'        => 'beta',
+    'state'        => 'experimental',
     'version'      => '0.0.1',
     'constraints'  => [
         'depends' => [
